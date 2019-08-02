@@ -64,7 +64,7 @@ class Books extends Component {
                   </Media>
                   </Media>
                   
-                  <Button href={"books/"+book._id} target="_blank">View Book</Button>
+                  <Button href={"books/"+book._id}>View Book</Button>
                   
                   <DeleteBtn onClick={() => this.deleteBook(book._id)} />
                   </ListItem>
