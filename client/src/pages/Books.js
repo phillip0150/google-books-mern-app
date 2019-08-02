@@ -101,7 +101,7 @@ class Books extends Component {
         {this.state.books.length ? (
                 <List>
                 {this.state.bookSearch.map(book => (
-                  <ListItem key={book._id}>
+                  <ListItem key={book.link}>
                   <Media>
                   <Media left href={book.link}>
                   <Media object src={book.thumbnail} alt="Generic placeholder image" />
