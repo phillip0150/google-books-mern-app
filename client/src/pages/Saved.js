@@ -5,10 +5,9 @@ import API from "../utils/API";
 // import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";
-import { Input, FormBtn } from "../components/Form";
+// import { Input, FormBtn } from "../components/Form";
 import {Button, Media} from "reactstrap";
 
-var books=require('google-books-search');
 class Books extends Component {
   state = {
     books: [],
