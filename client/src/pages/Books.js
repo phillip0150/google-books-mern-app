@@ -32,11 +32,11 @@ class Books extends Component {
       .catch(err => console.log(err));
     };
     
-    deleteBook = id => {
-      API.deleteBook(id)
-      .then(res => this.loadBooks())
-      .catch(err => console.log(err));
-    };
+    // deleteBook = id => {
+    //   API.deleteBook(id)
+    //   .then(res => this.loadBooks())
+    //   .catch(err => console.log(err));
+    // };
     
     handleInputChange = event => {
       const { name, value } = event.target;
@@ -65,10 +65,6 @@ class Books extends Component {
         console.log(results);
         this.setState({bookSearch: results});
       });
-      
-      
-      
-      
     };
     
     render() {
@@ -98,7 +94,7 @@ class Books extends Component {
         <Jumbotron>
         <h1>Book Results</h1>
         </Jumbotron>
-        {this.state.books.length ? (
+        {this.state.booksSearch.length ? (
                 <List>
                 {this.state.bookSearch.map(book => (
                   <ListItem key={book.link}>
