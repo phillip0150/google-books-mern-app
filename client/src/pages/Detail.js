@@ -38,7 +38,7 @@ class Detail extends Component {
             <article>
               <Media>
                   <Media left href={this.state.book.link}>
-                  <Media object src={this.state.book.thumbnail} alt="Generic placeholder image" />
+                  <Media object src={this.state.book.image} alt="Generic placeholder image" />
                   </Media>
                   <Media body>
                   <h1>Description</h1>
