@@ -94,7 +94,7 @@ class Books extends Component {
         <Jumbotron>
         <h1>Book Results</h1>
         </Jumbotron>
-        {this.state.booksSearch.length ? (
+        {this.state.bookSearch.length ? (
                 <List>
                 {this.state.bookSearch.map(book => (
                   <ListItem key={book.link}>
