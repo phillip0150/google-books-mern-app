@@ -34,8 +34,15 @@ class Detail extends Component {
         <Row>
           <Col size="md-10 md-offset-1">
             <article>
-              <h1>Description</h1>
-              <p>{this.state.book.desc}</p>
+              <Media>
+                  <Media left href={this.state.book.link}>
+                  <Media object src={book.thumbnail} alt="Generic placeholder image" />
+                  </Media>
+                  <Media body>
+                  <h1>Description</h1>
+                  <p>{this.state.book.desc}</p>
+                  </Media>
+                  </Media>
             </article>
           </Col>
         </Row>
