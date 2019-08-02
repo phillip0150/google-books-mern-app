@@ -49,6 +49,8 @@ class Detail extends Component {
         <Row>
           <Col size="md-2">
             <Link to="/">← Back Home</Link>
+            <br></br>
+            <Link to="/saved">← Back To Saved Books</Link>
           </Col>
         </Row>
       </Container>
