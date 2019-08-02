@@ -28,6 +28,19 @@ Once you enter a book, search results will apear.
 
 
 ![screenShot](https://github.com/phillip0150/googlebooks_mern/blob/master/images/2.png)
+![screenShot](https://github.com/phillip0150/googlebooks_mern/blob/master/images/3.png)
+
+You can click `Save` to save a book to mongoDB, or click `View Book` to view the book on Google's site
+
+![screenShot](https://github.com/phillip0150/googlebooks_mern/blob/master/images/7.png)
+
+To view saved books, click `Saved Books` at the top left of the page.
+
+![screenShot](https://github.com/phillip0150/googlebooks_mern/blob/master/images/4.png)
+![screenShot](https://github.com/phillip0150/googlebooks_mern/blob/master/images/5.png)
+
+To view the description of the book, click `View Book`. You can also delete a book from the database by click the red `x`
+![screenShot](https://github.com/phillip0150/googlebooks_mern/blob/master/images/6.png)
 
 
 
